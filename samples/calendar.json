@@ -1,0 +1,6 @@
+[
+  {"start": "09:00", "end": "09:30", "title": "Intro call - Shah Dental", "attendees": ["priya@shahdental.example"]},
+  {"start": "09:30", "end": "10:00", "title": "Weekly planning", "attendees": []},
+  {"start": "13:00", "end": "13:45", "title": "Proposal review - Lakeside Vet", "attendees": ["ops@lakesidevet.example"]},
+  {"start": "16:30", "end": "17:00", "title": "Invoice + bookkeeping", "attendees": []}
+]

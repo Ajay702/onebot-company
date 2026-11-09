@@ -1,0 +1,8 @@
+id,name,company,email,industry,city,notes
+1,Ana Lopez,Lopez Family Dental,ana@lopezdental.example,dental,Austin,Site loads slowly on mobile; booking form is an old PDF
+2,Tom Reed,Reed Plumbing,tom@reedplumbing.example,trades,Dallas,Happy with current agency
+3,Grace Kim,Northside Physio,grace@northsidephysio.example,physiotherapy,Austin,Opened 2nd location; website still lists only one
+4,Omar Haddad,Haddad Law,omar@haddadlaw.example,legal,Houston,Large firm with in-house IT
+5,Lena Fischer,Bright Smiles Ortho,lena@brightsmiles.example,dental,San Antonio,Website shows a 2021 copyright and broken team page
+6,Sam Patel,Patel Eye Care,sam@pateleye.example,optometry,Austin,No online booking at all
+7,Jo Nguyen,Nguyen Bakery,jo@nguyenbakery.example,food,Austin,Uses Instagram only

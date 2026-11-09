@@ -1,0 +1,20 @@
+[
+  {
+    "id": "m1",
+    "from": "Dr. Priya Shah <priya@shahdental.example>",
+    "subject": "Website help - what's your pricing?",
+    "body": "Hi, we run a 3-dentist practice and our booking form keeps breaking. What does your service cost per month?"
+  },
+  {
+    "id": "m2",
+    "from": "Newsletter <news@saasweekly.example>",
+    "subject": "This week in SaaS",
+    "body": "Top 10 growth tactics you need to see..."
+  },
+  {
+    "id": "m3",
+    "from": "Marco Diaz <marco@diazphysio.example>",
+    "subject": "Quick question",
+    "body": "Do you have different plans? Wondering how much it would be for a small physio clinic with one location."
+  }
+]

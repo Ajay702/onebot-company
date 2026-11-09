@@ -1,0 +1,25 @@
+# Routines = tasks you taught a bot once. Add new ones with:  python -m onebot teach ...
+routines:
+  - name: pricing_reply
+    bot: inbox_manager
+    trigger:
+      type: message          # fires for each inbox message containing any keyword
+      keywords: [pricing, price, cost, how much, quote, plans]
+    steps: |
+      1. Thank them by first name.
+      2. Answer the pricing question using only the plans in your facts.
+      3. Recommend the plan that fits what they described, in one sentence.
+      4. End with the booking link for a 15-minute intro call.
+
+  - name: morning_brief
+    bot: chief_of_staff
+    trigger:
+      type: schedule         # fires once per day at/after this local time
+      at: "08:00"
+      days: [mon, tue, wed, thu, fri]
+    input: calendar
+    steps: |
+      1. List today's events in time order, one line each.
+      2. Under each external meeting add one line on how to prepare.
+      3. Point out back-to-back meetings or gaps longer than 2 hours.
+      4. Finish with the single most important thing to get done today.
